@@ -54,6 +54,18 @@ self.decryptor.delegate = self;
 ## Demo
 ENCryptor comes bundled with encrypto-cli as demo, also available for installation through ```homebrew tap```
 
+```sh
+brew tap macpaw/taps
+brew update
+brew install encrypto-cli
+```
+```
+$ encrypto-cli
+usage: encrypto-cli encrypt <input> --output <output folder>
+                    decrypt <input> --output <output folder>
+                    preview <input>
+```
+
 ## Resources
 [Crypto File Structure](Crypto%20File%20Structure.md)
 
